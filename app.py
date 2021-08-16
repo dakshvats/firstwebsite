@@ -14,9 +14,9 @@ y_1 = [1, 5, 4, 7, 4]
 app=Flask(__name__)
 
 @app.route('/')
-def home():
+def index():
     app.route('/')
-    return render_template("home.html")
+    return render_template("index.html")
 
 @app.route('/about/')
 def about():
